@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Lubab.</title>
+  <subtitle>public journal</subtitle>
+  <link href="https://lubab.dev/feed.xml" rel="self"/>
+  <link href="https://blog.lubab.dev/"/>
+  <updated>2025-12-20T00:00:00Z</updated>
+  <id>https://blog.lubab.dev/</id>
+  <author>
+    <name>Lubab</name>
+  </author>
+  
+  <entry>
+    <title>I miss being a child</title>
+    <link href="https://blog.lubab.dev/posts/i-miss-being-a-child/"/>
+    <updated>2025-12-20T00:00:00Z</updated>
+    <id>https://blog.lubab.dev/posts/i-miss-being-a-child/</id>
+    <content type="html">&lt;p&gt;Tomorow, I turn 25 years old and I miss being a &lt;mark&gt;child&lt;/mark&gt;. That&#39;s all.&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;https://images.unsplash.com/photo-1761507501774-227268be0cf3?q=80&amp;w=1973&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot; alt=&quot;Stepping Into the Light (Child Stepping Into the Unknown)&quot; width=&quot;600&quot; /&gt;
+  &lt;figcaption&gt;&lt;small&gt;&lt;em&gt;Stepping Into the Light (Child Stepping Into the Unknown) by &lt;a href=&quot;https://unsplash.com/photos/silhouette-of-a-child-walking-up-stairs-towards-light-Ef7Oo72-sqE&quot;&gt;Ömer Evren&lt;/a&gt;&lt;/em&gt;&lt;/small&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;br /&gt;
+&lt;blockquote&gt;
+&lt;p dir=&quot;rtl&quot;&gt;”اللَّهُ الَّذِي خَلَقَكُم مِّن ضَعْفٍ ثُمَّ جَعَلَ مِن بَعْدِ ضَعْفٍ قُوَّةً ثُمَّ جَعَلَ مِن بَعْدِ قُوَّةٍ ضَعْفًا وَشَيْبَةً ۚ يَخْلُقُ مَا يَشَاءُ ۖ وَهُوَ الْعَلِيمُ الْقَدِيرُ“&lt;/p&gt;
+&lt;p&gt;“Allah is the one who created you from weakness, then made after weakness strength, then made after strength weakness and white hair. He creates what He wills, and He is the Knowing, the Competent.”&lt;/p&gt;
+&lt;p&gt;&lt;cite&gt;— Qur&#39;an (30:54)&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+  </entry>
+</feed>
