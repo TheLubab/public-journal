@@ -1,0 +1,7 @@
+# Robots & Humans Are Welcome
+User-agent: *
+Disallow:
+
+
+# Nothing to see here...
+Disallow: /world-domination-plan/

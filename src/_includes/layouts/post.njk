@@ -1,0 +1,65 @@
+---
+layout: base.njk
+---
+
+<article>
+    <nav aria-label="Breadcrumb">
+        <small>
+            <a href="/">Home</a> &gt; 
+            <span>{{ title }}</span>
+        </small>
+    </nav>
+    
+    <br>
+
+    <header>
+        <h1>{{ title }}</h1>
+        <p>
+            <small>
+                Published: <time datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time>
+                &bull; {{ content | length | round }} words
+            </small>
+        </p>
+    </header>
+
+    <section>
+        {{ content | safe }}
+    </section>
+
+    <br>
+    <hr>
+
+    <footer>
+        <p>
+            <strong>Tags:</strong> 
+            {% for tag in tags %}
+                {% if tag != "post" %}
+                    <a href="#{{ tag }}">#{{ tag }}</a>
+                {% endif %}
+            {% endfor %}
+        </p>
+    </footer>
+
+</article>
+
+{% set previousPost = collections.post | getPreviousCollectionItem(page) %}
+{% set nextPost = collections.post | getNextCollectionItem(page) %}
+
+{% if previousPost or nextPost %}
+<nav aria-label="Post Navigation">
+    <table width="100%">
+        <tr>
+            <td align="left" width="50%">
+                {% if previousPost %}
+                &larr; <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a>
+                {% endif %}
+            </td>
+            <td align="right" width="50%">
+                {% if nextPost %}
+                <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a> &rarr;
+                {% endif %}
+            </td>
+        </tr>
+    </table>
+</nav>
+{% endif %}

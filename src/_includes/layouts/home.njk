@@ -1,0 +1,41 @@
+---
+layout: base.njk
+---
+
+<section>
+		{{ content | safe }}
+</section>
+
+<section>
+    {% set currentYear = "" %}
+    
+    {# Loop through all posts tagged 'post', reversed (newest first) #}
+    {% for post in collections.post | reverse %}
+        
+        {# Get the year of the current post #}
+        {% set postYear = post.date | getYear %}
+
+        {# If the year has changed, print the new Year Header #}
+        {% if currentYear != postYear %}
+            {% if currentYear != "" %}</ul></article>{% endif %} {# Close previous list if exists #}
+            
+            <article>
+                <h3>{{ postYear }}</h3>
+                <ul>
+            {% set currentYear = postYear %}
+        {% endif %}
+
+        <li>
+            <time datetime="{{ post.date | htmlDateString }}">
+                {{ post.date | readableDate }}
+            </time> 
+            &mdash; 
+            <a href="{{ post.url }}">{{ post.data.title }}</a>
+        </li>
+
+    {% endfor %}
+    
+    {# Close the final list tags if there were posts #}
+    {% if currentYear != "" %}</ul></article>{% endif %}
+
+</section>
