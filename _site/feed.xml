@@ -4,11 +4,38 @@
   <subtitle>public journal</subtitle>
   <link href="https://lubab.dev/feed.xml" rel="self"/>
   <link href="https://blog.lubab.dev/"/>
-  <updated>2025-12-20T00:00:00Z</updated>
+  <updated>2025-12-22T00:00:00Z</updated>
   <id>https://blog.lubab.dev/</id>
   <author>
     <name>Lubab</name>
   </author>
+  
+  <entry>
+    <title>Software engineering isn&#39;t about knowing every framework. It&#39;s about how fast you can master a new one.</title>
+    <link href="https://blog.lubab.dev/posts/speed-of-learning-is-the-skill/"/>
+    <updated>2025-12-22T00:00:00Z</updated>
+    <id>https://blog.lubab.dev/posts/speed-of-learning-is-the-skill/</id>
+    <content type="html">&lt;p&gt;I recently tackled a technical challenge for a role I wanted at XBorg: Build an Auth system with Google OAuth and HttpOnly cookies, with bonus points for doing it as Microservices.&lt;/p&gt;
+&lt;p&gt;The catch? The required stack was &lt;strong&gt;NestJS&lt;/strong&gt; + &lt;strong&gt;@nest/microservices&lt;/strong&gt; + &lt;strong&gt;TypeORM&lt;/strong&gt;.
+My experience with NestJS? &lt;strong&gt;Zero&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;But I knew it can&#39;t be that hard. I&#39;ve built hundreds of APIs and full-stack websites. I understand patterns—Dependency Injection, Message Brokers, Stateless Auth (JWT), and Microservice architecture.&lt;/p&gt;
+&lt;p&gt;If you understand the patterns, the framework is just an implementation detail.&lt;/p&gt;
+&lt;p&gt;I didn&#39;t waste time on tutorials.
+I didn&#39;t let AI do it for me.
+I read the docs to map their terminology to the concepts I already knew.
+I used AI to explain things where their docs was not clear.&lt;/p&gt;
+&lt;p&gt;In a few hours, I had a fully distributed architecture running in Docker: API Gateway, Auth Service, and User Service, all connected via Redis.&lt;/p&gt;
+&lt;h3&gt;The Lesson:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Frameworks are temporary. Start learning patterns.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;AI should sharpen you, not replace your thinking.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
   
   <entry>
     <title>I miss being a child</title>
