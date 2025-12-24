@@ -4,11 +4,29 @@
   <subtitle>public journal</subtitle>
   <link href="https://lubab.dev/feed.xml" rel="self"/>
   <link href="https://blog.lubab.dev/"/>
-  <updated>2025-12-22T00:00:00Z</updated>
+  <updated>2025-12-24T00:00:00Z</updated>
   <id>https://blog.lubab.dev/</id>
   <author>
     <name>Lubab</name>
   </author>
+  
+  <entry>
+    <title>The power of saying yes</title>
+    <link href="https://blog.lubab.dev/posts/the-power-of-yes/"/>
+    <updated>2025-12-24T00:00:00Z</updated>
+    <id>https://blog.lubab.dev/posts/the-power-of-yes/</id>
+    <content type="html">&lt;p&gt;The closest path to success in anything is simply saying Yes to everything.&lt;/p&gt;
+&lt;p&gt;It&#39;s more complicated than that.&lt;/p&gt;
+&lt;p&gt;At whatever stage you are in life, you&#39;ll be faced with some choices, most of them are choices you dislike, like a job or a task you hate. And most of us will say no to that.&lt;/p&gt;
+&lt;p&gt;However, if you want to move forward in life and succeed, you have to say yes even if you dislike that.&lt;/p&gt;
+&lt;p&gt;Some times, you will have 2 choices in the same time, and you can&#39;t say yes to both, you have to choose one.&lt;/p&gt;
+&lt;p&gt;That&#39;s when you have to choose the Least Effort &amp;amp; Most Value one.&lt;/p&gt;
+&lt;p&gt;Value is not material benefit always, most of the time the most value is how many opportunities this choice will open up.&lt;/p&gt;
+&lt;p&gt;The reason behind the importance of saying yes, is the doors you open by saying yes, everytime you are in a new scene, you will be exposed to more choices, and if you keep saying yes, your choices will exponentially increase. By saying No, you close the door before even entering.&lt;/p&gt;
+&lt;p&gt;There are cases where you should say No, these cases are when the yes will put you in prison of opportunity, when you have to stuck with that choice for next 5 years for example.&lt;/p&gt;
+&lt;p&gt;I&#39;m still learning to write in clear way, i have a lot of thoughts but expressing them in a way other can understand is still difficult. I will not use AI to fix/clarity it because I want to improve.&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Software engineering isn&#39;t about knowing every framework. It&#39;s about how fast you can master a new one.</title>
